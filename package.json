@@ -1,6 +1,6 @@
 {
   "name": "svelte-scrolling",
-  "version": "1.2.3-alpha",
+  "version": "1.2.3-beta",
   "description": "Scroll to given elements with smooth animation",
   "author": "Valmisson Grizorte",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
-    "svelte": "^3.38.3"
+    "svelte": ">=3.38.3"
   },
   "devDependencies": {
     "@tsconfig/svelte": "^3.0.0",
