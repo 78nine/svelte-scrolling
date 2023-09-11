@@ -6,7 +6,6 @@ import scrolling from '../shared/scrolling';
 const elementsList = get(elements);
 // handle with scrolling
 const handle = async (event, options) => {
-    event.preventDefault();
     const { ref, onDone, onStart } = options;
     /* eslint-disable @typescript-eslint/no-non-null-assertion */
     const duration = options.duration;
